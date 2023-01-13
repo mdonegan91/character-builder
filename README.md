@@ -1,4 +1,4 @@
-# Calculator project
+# Character Builder
 
 #### By Asia Kaplanyan and Molly Donegan
 
@@ -16,12 +16,9 @@ _This is a page for building a character._
 
 * _You need a web browser_
 
-
-
 ## Known Bugs
 
 * _No known bugs_
-
 
 ## License
 

@@ -12,17 +12,17 @@ window.onload = function () {
         console.log(name, dob, favoriteColor, radioSelection);
 
         let result = "";
-        if (Date(dob) > Date("01/01/1993")) {
-          result = "young";
+        if (dob > "1993-01-01") {
+            result = name + " is sneaky," + " loves " + favoriteColor + ", and their special skill is " + radioSelection + ".";
         }
-        if (("1970-01-01" < dob ) && (dob < "1992-12-31")) {
-          result = "middle age"
+        else if (("1970-01-01" < dob) && (dob < "1992-12-31")) {
+            result = name + " is smart," + " loves " + favoriteColor + ", and their special skill is " + radioSelection + ".";
         }
         else {
-          result = "old"
+            result = name + " is brave," + " loves " + favoriteColor + ", and their special skill is " + radioSelection + ".";
         }
-            
-            document.getElementById("output").innerText = result;
-          });
+
+        document.getElementById("output").innerText = result;
+    });
 
 }
