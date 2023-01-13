@@ -12,10 +12,10 @@ window.onload = function () {
         console.log(name, dob, favoriteColor, radioSelection);
 
         let result = "";
-        if (dob > 1993-01-01) {
+        if (Date(dob) > Date("01/01/1993")) {
           result = "young";
         }
-        if ((1970-01-01 < dob ) && (dob < 1992-12-31)) {
+        if (("1970-01-01" < dob ) && (dob < "1992-12-31")) {
           result = "middle age"
         }
         else {
